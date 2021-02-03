@@ -1,0 +1,49 @@
+.helpParent {
+  color: #e13c3c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Work Sans";
+}
+
+.helpLeft {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.helpRight {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.helpButton {
+  box-shadow: 0 4px #b22222;
+  color: #fff;
+  background-color: #e13c3c;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  width: max-content;
+  letter-spacing: 1px;
+}
+
+.helpButton:active {
+  box-shadow: 0 1px #b22222;
+  transform: translateY(3px);
+}
+
+@media only screen and (max-width: 750px) {
+  .helpParent {
+    flex-direction: column;
+  }
+}

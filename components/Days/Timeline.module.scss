@@ -1,0 +1,47 @@
+.globals {
+  color: #e13c3c;
+  font-family: "Work Sans";
+}
+
+.title {
+  font-weight: 700;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  h2 {
+    margin: 0;
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.timelineHolder {
+  overflow: hidden;
+  line-height: 1.7em;
+}
+
+.separator {
+  width: 50px;
+  margin-left: 0;
+  border-color: #e13c3c;
+  color: #e13c3c;
+  height: 4px;
+  background-color: #e13c3c;
+}
+
+.time {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
