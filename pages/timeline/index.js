@@ -9,6 +9,9 @@ export default function Index() {
   return (
     <>
       <div className={styles.timelineFlex}>
+        <div className={styles.backButton} onClick={() => router.push("/")}>
+          ←
+        </div>
         <div className="mw-1440">
           <h2 className={styles.mainTitle}>What has been happening?</h2>
           <br />

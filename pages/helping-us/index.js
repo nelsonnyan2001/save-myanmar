@@ -1,10 +1,15 @@
 import React from "react";
+import { useRouter } from "next/router";
 import styles from "./helping-us.module.scss";
 
 export default function index() {
+  const router = useRouter();
   return (
     <div className="mw-1440" style={{ height: "100%" }}>
       <div className={styles.helpingParent}>
+        <div className={styles.backButton} onClick={() => router.push("/")}>
+          ←
+        </div>
         <div className={styles.myanmar}>
           <div className="mw-400">
             <h2>Are you from Myanmar?</h2>
