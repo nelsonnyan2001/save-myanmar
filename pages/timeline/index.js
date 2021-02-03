@@ -4,8 +4,10 @@ import Fade from "react-reveal/Fade";
 import Day1 from "../../components/Days/Day1";
 import Day2 from "../../components/Days/Day2";
 import Day3 from "../../components/Days/Day3";
+import { useRouter } from "next/router";
 
 export default function Index() {
+  const router = useRouter();
   return (
     <>
       <div className={styles.timelineFlex}>

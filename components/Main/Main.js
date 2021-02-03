@@ -19,9 +19,7 @@ export default function Main() {
             </span>
           </div>
         </div>
-        <div className={styles.scrollHolder}>
-          <Image src="/logos/arrow.svg" height="40px" width="40px" />
-        </div>
+        <div className={styles.scrollHolder}>↓</div>
       </div>
     </>
   );
