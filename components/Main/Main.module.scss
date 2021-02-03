@@ -25,8 +25,11 @@
 .scrollHolder {
   position: absolute;
   bottom: 30px;
+  font-size: 40px;
   right: 30px;
+  color: white;
   align-self: flex-end;
+  animation: change 2s cubic-bezier(0.165, 0.84, 0.44, 1) 7s forwards;
 }
 
 .fadeInSlow {

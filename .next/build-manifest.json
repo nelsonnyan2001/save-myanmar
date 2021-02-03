@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/helping-us": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/helping-us.js"
+    ],
     "/timeline": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
