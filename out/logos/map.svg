@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) ammap.com | SVG map of Myanmar - Low -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<defs>
+		<style type="text/css">
+			.land
+			{
+				fill: #CCCCCC;
+				fill-opacity: 1;
+				stroke:white;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+		</style>
+
+		<amcharts:ammap projection="mercator" leftLongitude="92.171808" topLatitude="28.547835" rightLongitude="101.170272" bottomLatitude="9.599094"></amcharts:ammap>
+
+		<!-- All areas are listed in the line below. You can use this list in your script. -->		<!--{id:"MM-01"},{id:"MM-11"},{id:"MM-05"},{id:"MM-17"},{id:"MM-03"},{id:"MM-07"},{id:"MM-14"},{id:"MM-16"},{id:"MM-15"},{id:"MM-06"},{id:"MM-02"},{id:"MM-04"},{id:"MM-13"},{id:"MM-12"}-->
+
+	</defs>
+	<g></g>
+</svg>
