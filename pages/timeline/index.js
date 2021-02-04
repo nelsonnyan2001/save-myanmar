@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 import Day1 from "../../components/Days/Day1";
 import Day2 from "../../components/Days/Day2";
 import Day3 from "../../components/Days/Day3";
+import Day4 from "../../components/Days/Day4";
 import { useRouter } from "next/router";
 
 export default function Index() {
@@ -24,6 +25,8 @@ export default function Index() {
           <Day2 />
           <hr />
           <Day3 />
+          <hr />
+          <Day4 />
           <hr />
         </div>
       </div>

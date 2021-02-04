@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Work+Sans:wght@100;400;500;600;800;900&family=Josefin+Sans:wght@100;200;400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Work+Sans:wght@300;400;500;600;800;900&family=Josefin+Sans:wght@100;200;400;500;800;900&display=swap");
 
 html,
 body {
@@ -22,9 +22,27 @@ a {
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
 .mw-1440 {
   max-width: 1480px;
   padding: 0 20px;
+  margin: 0 auto;
+}
+
+.mw-1160 {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.mw-880 {
+  max-width: 880px;
   margin: 0 auto;
 }
 

@@ -73,9 +73,6 @@ export default function Timeline() {
             <br />
             Daw Aung San Suu Kyi gets arrested for possession of an unlicensed
             walkie talkie.
-            <br />
-            <br />
-            We hope.
           </p>
         </Fade>
         <hr />
