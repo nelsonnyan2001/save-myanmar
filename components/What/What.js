@@ -44,12 +44,7 @@ export default function What() {
                 Now, 10 years later, we fear it may be being taken away from us.
               </p>
               <div style={{ height: "50px" }} />
-              <Image
-                src="/pictures/tfs.png"
-                width={100}
-                height={100}
-                layout="responsive"
-              />
+              <img src="/pictures/tfs.png" className={styles.images} />
               <br />
               <p className={styles.subDued}>
                 The three-fingered salute. A symbol of protest against
@@ -84,28 +79,13 @@ export default function What() {
                 onSlideChange={() => console.log("slide change")}
               >
                 <SwiperSlide>
-                  <Image
-                    src="/pictures/pot1.png"
-                    width={100}
-                    height={100}
-                    layout="responsive"
-                  />
+                  <img src="/pictures/pot1.png" className={styles.images} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image
-                    src="/pictures/pot2.png"
-                    width={100}
-                    height={100}
-                    layout="responsive"
-                  />
+                  <img src="/pictures/pot2.png" className={styles.images} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image
-                    src="/pictures/pot3.png"
-                    width={100}
-                    height={100}
-                    layout="responsive"
-                  />
+                  <img src="/pictures/pot3.png" className={styles.images} />
                 </SwiperSlide>
               </Swiper>
               <p className={styles.subDued}>
@@ -129,12 +109,7 @@ export default function What() {
                 We hope it is not too little too late.
               </p>
               <div style={{ height: "50px" }} />
-              <Image
-                src="/pictures/cdm.png"
-                width={100}
-                height={100}
-                layout="responsive"
-              />
+              <img src="/pictures/cdm.png" className={styles.images} />
               <br />
               <p className={styles.subDued}>
                 The "official" symbol of a nation refusing to bow down to
