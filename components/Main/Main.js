@@ -14,7 +14,7 @@ export default function Main() {
             <br />
             <br />
             <span className={styles.fadeInSlow}>
-              This is Myanmar's second military coup.
+              This is Myanmar's third military coup.
             </span>
           </div>
         </div>
