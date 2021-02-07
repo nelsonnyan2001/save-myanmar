@@ -2,21 +2,20 @@ import React, { useRef } from "react";
 import Fade from "react-reveal/Fade";
 import styles from "./What.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Gallery from "../Gallery/Gallery";
 
 export default function What() {
-  const SwiperInstance = useRef();
+  const potImages = [
+    "/pictures/pot1.png",
+    "/pictures/pot2.png",
+    "/pictures/pot3.png",
+  ];
 
-  const setSwiper = (sw) => {
-    SwiperInstance.current = sw;
-  };
-
-  const next = () => {
-    SwiperInstance.current.slideNext();
-  };
-
-  const prev = () => {
-    SwiperInstance.current.slidePrev();
-  };
+  const protestImages = [
+    "/pictures/protest1.png",
+    "/pictures/protest2.png",
+    "/pictures/protest3.png",
+  ];
   return (
     <>
       <div className="mw-1440">
@@ -60,33 +59,11 @@ export default function What() {
                 <br />
                 We bang our pots and pans. We honk our horns. We protest as
                 peacefully as we can.
-                <br />
-                <br />
-                <div className={styles.controls}>
-                  <span className={styles.subDued}>Swipe to view</span>
-                  <div>
-                    <div onClick={prev}>←</div> <div onClick={next}>→</div>
-                  </div>
-                </div>
               </p>
               <div style={{ height: "20px" }} />
-              <Swiper
-                spaceBetween={50}
-                slidesPerView={1}
-                scrollbar={{ draggable: true }}
-                onSwiper={setSwiper}
-                onSlideChange={() => console.log("slide change")}
-              >
-                <SwiperSlide>
-                  <img src="/pictures/pot1.png" className={styles.images} />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="/pictures/pot2.png" className={styles.images} />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="/pictures/pot3.png" className={styles.images} />
-                </SwiperSlide>
-              </Swiper>
+
+              <Gallery data={potImages} />
+
               <p className={styles.subDued}>
                 "You should never let your fears prevent you from doing what you
                 know is right."
@@ -114,6 +91,26 @@ export default function What() {
                 The "official" symbol of a nation refusing to bow down to
                 military rule.
               </p>
+
+              <h2>The protests</h2>
+              <hr className={styles.separator}></hr>
+              <p className={styles.para}>
+                On the 7th day of the military takeover, the population of
+                Myanmar came together in to organize multiple peaceful protests
+                all over Myanmar.
+                <br />
+                <br />
+                Hundreds of thousands of people pour out of their homes and join
+                in marches in major towns and cities all over the country.
+                <br />
+                <br />
+                Death to dictatorship.
+              </p>
+
+              <div style={{ height: "20px" }} />
+
+              <Gallery data={protestImages} />
+
               <h3>
                 The eyes of the world are on Myanmar. Please, help us return to
                 a democracy and live in a world where we do not have to worry
