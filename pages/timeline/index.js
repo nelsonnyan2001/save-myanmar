@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Timeline.module.scss";
-import Fade from "react-reveal/Fade";
 import Day1 from "../../components/Days/Day1";
 import Day2 from "../../components/Days/Day2";
 import Day3 from "../../components/Days/Day3";
@@ -8,6 +7,8 @@ import Day4 from "../../components/Days/Day4";
 import Day5 from "../../components/Days/Day5";
 import Day6 from "../../components/Days/Day6";
 import Day7 from "../../components/Days/Day7";
+import Day8 from "../../components/Days/Day8";
+import Day9 from "../../components/Days/Day9";
 import { useRouter } from "next/router";
 
 export default function Index() {
@@ -36,6 +37,10 @@ export default function Index() {
           <Day6 />
           <hr />
           <Day7 />
+          <hr />
+          <Day8 />
+          <hr />
+          <Day9 />
           <hr />
         </div>
       </div>
