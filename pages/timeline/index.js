@@ -9,6 +9,8 @@ import Day6 from "../../components/Days/Day6";
 import Day7 from "../../components/Days/Day7";
 import Day8 from "../../components/Days/Day8";
 import Day9 from "../../components/Days/Day9";
+import Day10 from "../../components/Days/Day10";
+import Day11 from "../../components/Days/Day11";
 import { useRouter } from "next/router";
 
 export default function Index() {
@@ -41,6 +43,10 @@ export default function Index() {
           <Day8 />
           <hr />
           <Day9 />
+          <hr />
+          <Day10 />
+          <hr />
+          <Day11 />
           <hr />
         </div>
       </div>
