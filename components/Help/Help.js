@@ -12,11 +12,8 @@ export default function Help() {
       >
         <div className={styles.helpButton}>how can you help?</div>
       </div>
-      <div
-        className={styles.helpRight}
-        onClick={() => router.push("/timeline")}
-      >
-        <div className={styles.helpButton}>a timeline of things so far</div>
+      <div className={styles.helpRight} onClick={() => router.push("/links")}>
+        <div className={styles.helpButton}>A collection of links</div>
       </div>
     </div>
   );

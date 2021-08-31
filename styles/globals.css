@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Work+Sans:wght@300;400;500;600;800;900&family=Josefin+Sans:wght@100;200;400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display:wght@400;900&family=Work+Sans:wght@300;400&family=Josefin+Sans:wght@400&display=swap");
 
 html,
 body {
@@ -7,6 +7,7 @@ body {
   font-family: "Playfair Display";
   height: 100%;
   background-color: black;
+  background-image: url("https://assets-global.website-files.com/60d28377885e0106c1158a35/60faf96692616d7217c80fe9_noise-transparent-intense.png");
 }
 
 #__next {

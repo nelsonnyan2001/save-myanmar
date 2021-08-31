@@ -1,0 +1,32 @@
+.backButton {
+  font-size: 50px;
+  margin: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.linksGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pageHeader {
+  font-family: DM Sans;
+  color: white;
+  text-align: center;
+  color: rgb(190, 190, 190);
+  margin-bottom: 40px;
+}
+
+@media (max-width: 700px) {
+  .linksGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .linksGrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   line-height: 1.8em;
-  font-family: "";
   font-family: "Josefin Sans";
   p {
     font-size: 20px;
@@ -38,5 +37,11 @@
     justify-content: unset;
     align-items: unset;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .helpingParent {
+    align-items: unset;
   }
 }
